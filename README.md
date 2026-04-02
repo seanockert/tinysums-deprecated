@@ -1,5 +1,9 @@
 # Tiny Sums
 
+## DEPRECATED. REPLACED WITH NEW VERSION https://github.com/seanockert/tinysums2
+
+---
+
 A little text area that lets you calculate stuff with natural language
 
 Based on PEG parser, allows you to set variables and do back of the envelope calculations line by line. Useful for when you don't need something as complex as a spreadsheet.  
@@ -47,12 +51,3 @@ sum
 - convert keywords 'today', 'now', 'tomorrow', 'yesterday', 'next thursday' to dates
 - parse second, minute, hour, day, week, month, year
 - eg. today plus 10 days
-    
-## Misc
-- comment with quote marks "normally $65"
-
-# TODO
-- Add syntax highlighting (Codeflask)
-- Improve error handling (gracefully fail Peg parser)
-- Autosize textarea not setting height on page load
-- Correct currency selector
